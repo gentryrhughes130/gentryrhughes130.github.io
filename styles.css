@@ -1,14 +1,14 @@
 :root {
-  --bg: #0b1020;
-  --bg-soft: #121a2d;
+  --bg: #1b120d;
+  --bg-soft: #2b1d17;
   --panel: rgba(255, 255, 255, 0.04);
   --panel-strong: rgba(255, 255, 255, 0.08);
-  --text: #edf3ff;
-  --muted: #b7c3d9;
-  --accent: #7dd3fc;
-  --accent-strong: #38bdf8;
+  --text: #f8f2ea;
+  --muted: #dcc8b8;
+  --accent: #d4a373;
+  --accent-strong: #b86f4f;
   --border: rgba(255, 255, 255, 0.12);
-  --shadow: 0 20px 45px rgba(15, 23, 42, 0.35);
+  --shadow: 0 20px 45px rgba(31, 22, 17, 0.45);
 }
 
 * {
@@ -22,7 +22,7 @@ html {
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
-  background: radial-gradient(circle at top, #14213d 0%, var(--bg) 40%);
+  background: radial-gradient(circle at top, #3a2419 0%, var(--bg) 42%);
   color: var(--text);
   line-height: 1.6;
 }
@@ -47,7 +47,7 @@ a {
   top: 0;
   z-index: 50;
   backdrop-filter: blur(12px);
-  background: rgba(11, 16, 32, 0.7);
+  background: rgba(27, 18, 13, 0.75);
   border-bottom: 1px solid var(--border);
 }
 
@@ -59,9 +59,10 @@ a {
 }
 
 .brand {
-  font-size: 1.1rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .nav-links {
@@ -148,8 +149,8 @@ h3 {
 
 .button.primary {
   background: linear-gradient(135deg, var(--accent), var(--accent-strong));
-  color: #061320;
-  box-shadow: 0 12px 24px rgba(56, 189, 248, 0.25);
+  color: #1d120d;
+  box-shadow: 0 12px 24px rgba(180, 111, 79, 0.28);
 }
 
 .button.secondary {
@@ -179,8 +180,8 @@ h3 {
   border-radius: 50%;
   font-size: 2rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #7dd3fc, #a78bfa);
-  color: #071522;
+  background: linear-gradient(135deg, #d4a373, #e6c29d);
+  color: #1d120d;
   margin-bottom: 1.25rem;
 }
 
