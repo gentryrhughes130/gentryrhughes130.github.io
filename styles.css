@@ -244,19 +244,6 @@ h3 {
   padding: 2rem;
 }
 
-.address-line {
-  margin: 1rem 0 0;
-  color: var(--muted);
-  font-size: 1.05rem;
-  line-height: 1.8;
-}
-
-.visit-actions {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .site-footer {
   border-top: 1px solid var(--border);
   padding: 1.5rem 0 3rem;
@@ -301,9 +288,5 @@ h3 {
 
   .contact-box {
     padding: 1.5rem;
-  }
-
-  .visit-actions {
-    width: 100%;
   }
 }
